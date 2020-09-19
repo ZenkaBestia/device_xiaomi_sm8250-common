@@ -1,1 +1,2 @@
-#Initial prop
+# Use Vulkan backend for Skia UI rendering
+debug.hwui.renderer=skiavk
