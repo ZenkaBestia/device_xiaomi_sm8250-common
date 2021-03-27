@@ -88,3 +88,6 @@
 # WiFi
 /vendor/bin/nv_mac                                                      u:object_r:wcnss_service_exec:s0
 /data/vendor/mac_addr(/.*)?                                             u:object_r:wifi_vendor_data_file:s0
+
+# Files in rootfs
+/persist(/.*)?                                                                                                 u:object_r:persist_file:s0
