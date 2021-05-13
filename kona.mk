@@ -305,10 +305,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Perf
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
@@ -337,6 +333,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librmnetctl \
     libxml2
+
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
 
 # Rootdir
 PRODUCT_PACKAGES += \
