@@ -345,4 +345,5 @@
 
     <!-- Whether device has notification LED -->
     <bool name="config_hasNotificationLed">true</bool>  
+    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
 </resources>
