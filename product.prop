@@ -1,5 +1,2 @@
-# Use Vulkan backend for Skia UI rendering
-debug.hwui.renderer=skiavk
-
 # Expensive rendering for blurs
 ro.sf.blurs_are_expensive=1
