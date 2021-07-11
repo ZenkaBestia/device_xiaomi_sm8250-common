@@ -234,6 +234,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optionals="true">
+        <name>vendor.qti.hardware.perf</name>
+        <version>2.2</version>
+        <interface>
+            <name>IPerf</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.qccvndhal</name>
         <version>1.0</version>
